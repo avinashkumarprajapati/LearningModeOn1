@@ -4,11 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EnglishContentComponent } from './english-content/english-content.component';
+import {SimpleStyleDirective} from './simple-style/simple-style.directive';  
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    EnglishContentComponent
+    EnglishContentComponent,
+    SimpleStyleDirective
   ],
   imports: [
     BrowserModule,
